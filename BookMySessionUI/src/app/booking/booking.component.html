@@ -1,0 +1,106 @@
+<!-- Heroslider Area -->
+<div class="bms-heroslider">
+  <div class="bms-heroslider-inner">
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-12 col-lg-12 order-2 order-lg-1">
+          <div class="bms-heroslider-content">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
+            <p>quam dolor hendrerit justo, nec cursus nulla neque quis orci. Morbi faucibus tempor
+              nibh, sit amet egestas sapien efficitur eu. In neque </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--// Heroslider Area -->
+
+<div class="booking-section bms-section ">
+  <div class="container bg-overlay-1 bms-padding-section">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6 align-self-center">
+        <form>
+          <div class="form-group row">
+            <label for="services" class="col-sm-3 col-form-label">Services</label>
+            <div class="col-sm-9">
+              <select class="custom-select-lg mb-3">
+                <option selected>Select Services</option>
+                <option value="1">How to become an Online seller</option>
+                <option value="2">Part Time Coaching (Ecommerce account Handling Course</option>
+                <option value="3">New Company Registration guideline</option>
+                <option value="4">Brand TRADEMARK</option>
+                <option value="4">How to Sell On all Channels</option>
+                <option value="4">Logo Designing (Guidelines)</option>
+                <option value="4">Issues (Brand registration, Listing, Sales , Payment, FBA, FA)</option>
+                <option value="4">FBA (Amazon)</option>
+                <option value="4">FA (Flipkart)</option>
+                <option value="4">New Collection Guidelines</option>
+                <option value="4">Best Seller product Guidelines</option>
+                <option value="4">What To sale</option>
+                <option value="4">How to Increase sales through online channel</option>
+                <option value="4">Photoshoot (Guidelines)</option>
+                <option value="4">Request For Meting</option>
+                <option value="4">Listing / Cataloging</option>
+                <option value="4">SEO</option>
+                <option value="4">Facebook /Insta Add</option>
+                <option value="4">Website Designing</option>
+                <option value="4"> App Designing </option>
+                <option value="4">Social Media Consultant</option>
+                <option value="4"> Others(eCommerce Related Issue) </option>
+              </select>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+    <div class="booking-body">
+      <div class="row table-header">
+        <div class="col">
+          <span class="day-name">Mon</span>
+          <span class="date">11/03/2019</span>
+        </div>
+        <div class="col">
+          <span class="day-name">Tue</span>
+          <span class="date">11/03/2019</span>
+        </div>
+        <div class="col">
+          <span class="day-name">Wed</span>
+          <span class="date">11/03/2019</span>
+        </div>
+        <div class="col">
+          <span class="day-name">Thu</span>
+          <span class="date">11/03/2019</span>
+        </div>
+        <div class="col">
+          <span class="day-name">Fri</span>
+          <span class="date">11/03/2019</span>
+        </div>
+        <div class="col">
+          <span class="day-name">Sat</span>
+          <span class="date">11/03/2019</span>
+        </div>
+        <div class="col">
+          <span class="day-name">Sun</span>
+          <span class="date">11/03/2019</span>
+        </div>
+        <div class="col">
+          <span class="day-name">Mon</span>
+          <span class="date">11/03/2019</span>
+        </div>
+      </div>
+      <div class="row table-body" *ngFor="let totalrow of TotalRows">
+        <div routerLink="/confirmbooking"  class="col" *ngFor="let time of times">
+          <span class="time" >{{time}}</span>
+        </div>
+
+      </div>     
+
+    </div>
+
+  </div>
+</div>

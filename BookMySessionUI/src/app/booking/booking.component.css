@@ -1,0 +1,41 @@
+.bms-heroslider{
+    height: 300px;
+}
+.bms-heroslider-inner
+{
+    min-height: 100%;
+}
+.bms-padding-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.booking-body
+{
+    padding: 25px;
+}
+.form-group label{
+    font-size: 25px;
+    color: #fff;
+}
+.form-group select{
+    background: #252746;
+    color: #fff;
+}
+.table-header .day-name,.table-header .date{
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.table-body .col{
+    background: #0E8FE3;
+    color: #000;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-align: center;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    cursor: pointer;
+}

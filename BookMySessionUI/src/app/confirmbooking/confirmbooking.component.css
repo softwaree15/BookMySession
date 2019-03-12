@@ -1,0 +1,66 @@
+.bms-heroslider{
+    height: 300px;
+}
+.bms-heroslider-inner
+{
+    min-height: 100%;
+}
+.bms-padding-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.booking-body
+{
+    padding: 25px;
+}
+.form-group label{
+    font-size: 25px;
+    color: #fff;
+}
+label{
+    color:#fff;
+}
+.form-group select{
+    background: #252746;
+    color: #fff;
+}
+.form-control{
+    color: #fff;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0E8FE3;
+}
+.cd-body{
+    background: rgba(0, 0, 0, .5);
+    padding: 15px;
+}
+.cd-body .col{
+    height: 55px;
+}
+.cd-body .col img{
+    height: 55px;
+}
+.cd-body .custom-control-label::after{
+    display: none;
+}
+.cd-body .allbanks-lbl{
+    display: block;
+    margin-top: 20px;
+}
+.cd-body .select-banks{
+    max-width: 300px;
+    color: #fff;
+   
+}
+.cd-body .select-banks option{
+    background: #252746;
+}
