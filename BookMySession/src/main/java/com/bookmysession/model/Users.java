@@ -9,13 +9,14 @@ import java.time.LocalDateTime;
 @Entity
 public class Users extends CommonProperties{
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String firstName;
     private String lastName;
     private String mobNo;
     private String email;
     private String password;
+    private String type;
     private String token;
     private LocalDateTime tokenExpireDate;
 
@@ -65,6 +66,14 @@ public class Users extends CommonProperties{
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getToken() {

@@ -15,65 +15,17 @@ import java.time.LocalDateTime;
  */
 @MappedSuperclass
 public class CommonProperties {
-	
-	private boolean isActive = true;
-	private boolean isDelete = false;
-	private String updatedBy;
-	private String createdBy;
-	
-	@CreationTimestamp
-	@Column(updatable=false, nullable=false)
-	private LocalDateTime createdOn;
-	
-	@UpdateTimestamp
-	@Column(nullable=false)
-	private LocalDateTime updatedOn;
 
-    public boolean isActive() {
-        return isActive;
-    }
+    private boolean isActive = true;
+    private boolean isDelete = false;
+    private String updatedBy;
+    private String createdBy;
 
-    public void setActive(boolean active) {
-        isActive = active;
-    }
+    @CreationTimestamp
+    @Column(updatable = false, nullable = false)
+    private LocalDateTime createdOn;
 
-    public boolean isDelete() {
-        return isDelete;
-    }
-
-    public void setDelete(boolean delete) {
-        isDelete = delete;
-    }
-
-    public String getUpdatedBy() {
-        return updatedBy;
-    }
-
-    public void setUpdatedBy(String updatedBy) {
-        this.updatedBy = updatedBy;
-    }
-
-    public String getCreatedBy() {
-        return createdBy;
-    }
-
-    public void setCreatedBy(String createdBy) {
-        this.createdBy = createdBy;
-    }
-
-    public LocalDateTime getCreatedOn() {
-        return createdOn;
-    }
-
-    public void setCreatedOn(LocalDateTime createdOn) {
-        this.createdOn = createdOn;
-    }
-
-    public LocalDateTime getUpdatedOn() {
-        return updatedOn;
-    }
-
-    public void setUpdatedOn(LocalDateTime updatedOn) {
-        this.updatedOn = updatedOn;
-    }
+    @UpdateTimestamp
+    @Column(nullable = false)
+    private LocalDateTime updatedOn;
 }

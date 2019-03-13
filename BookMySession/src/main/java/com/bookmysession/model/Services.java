@@ -1,9 +1,7 @@
 package com.bookmysession.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Services extends CommonProperties {
@@ -11,6 +9,12 @@ public class Services extends CommonProperties {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
+
+    @OneToMany(mappedBy="service",cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<HourOrMinForServices> hourOrMinForServices;
+
+    @OneToMany(mappedBy="services",cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<ServicesTimeSlot> servicesTimeSlots;
 
     public long getId() {
         return id;
@@ -26,5 +30,21 @@ public class Services extends CommonProperties {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<HourOrMinForServices> getHourOrMinForServices() {
+        return hourOrMinForServices;
+    }
+
+    public void setHourOrMinForServices(List<HourOrMinForServices> hourOrMinForServices) {
+        this.hourOrMinForServices = hourOrMinForServices;
+    }
+
+    public List<ServicesTimeSlot> getServicesTimeSlots() {
+        return servicesTimeSlots;
+    }
+
+    public void setServicesTimeSlots(List<ServicesTimeSlot> servicesTimeSlots) {
+        this.servicesTimeSlots = servicesTimeSlots;
     }
 }
