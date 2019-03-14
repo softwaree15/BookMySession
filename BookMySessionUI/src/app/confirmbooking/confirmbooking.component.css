@@ -1,5 +1,10 @@
+.bms-header-logo{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .bms-heroslider{
-    height: 300px;
+    height: 330px;
 }
 .bms-heroslider-inner
 {

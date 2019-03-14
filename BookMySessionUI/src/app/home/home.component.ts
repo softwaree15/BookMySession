@@ -10,6 +10,53 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.navigationScroll();
+    this.scrollToSection();
+    this.mobileHomeNavigationScroll();
+    this.scrollSpyFun();
+    this.storiesSlider();
+    
+  }
+  navigationScroll(){
+    $(".bms-navigation li a").on("click", function (i) {
+      i.preventDefault();
+      var e = $(this);
+      $("html, body").stop().animate({
+        scrollTop: $(e.attr("href")).offset().top - 65
+      }, 1e3)
+    });
+  }
+  scrollToSection(){
+    $(".bms-heroslider-scrolldown").on("click", function (i) {
+      i.preventDefault();
+      var e = $(this);
+      $("html, body").stop().animate({
+        scrollTop: $(e.attr("href")).offset().top - 65
+      }, 1e3)
+    });
+  }
+  mobileHomeNavigationScroll() {
+    $("nav.bms-navigation").meanmenu({
+      meanMenuContainer: ".bms-mobilenav",
+      meanScreenWidth: "991",
+      meanMenuOpen: '<i class="zmdi zmdi-menu"></i>',
+      meanMenuClose: '<i class="zmdi zmdi-close"></i>'
+    }), $(".bms-mobilenav nav.mean-nav li a").on("click", function (i) {
+      i.preventDefault();
+      var e = $(this);
+      $("html, body").stop().animate({
+        scrollTop: $(e.attr("href")).offset().top - 65
+      }, 1e3)
+    });
+  }
+  scrollSpyFun(){
+    $(".bms-navigation").scrollspy({
+      offset: -65,
+      activeClass: "current",
+      animate: "swing"
+  });
+  }
+  storiesSlider(){
     $(".bms-stories-slider").slick({
       infinite: !0,
       autoplay: !1,
@@ -24,20 +71,19 @@ export class HomeComponent implements OnInit {
       nextArrow: '<button class="bms-slider-arrow-next"><i class="zmdi zmdi-long-arrow-right"></i></button>',
       dots: !1,
       responsive: [{
-          breakpoint: 992,
-          settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-          }
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
       }, {
-          breakpoint: 768,
-          settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              adaptiveHeight: !0
-          }
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          adaptiveHeight: !0
+        }
       }]
-  })
+    });
   }
-
 }

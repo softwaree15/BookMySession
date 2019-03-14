@@ -1,5 +1,10 @@
+.bms-header-logo{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .bms-heroslider{
-    height: 300px;
+    height: 330px;
 }
 .bms-heroslider-inner
 {
@@ -38,4 +43,14 @@
     justify-content: center;
     margin-bottom: 4px;
     cursor: pointer;
+}
+.booking-bg{
+    background: url('../../assets/images/bg/booking_bg.jpg');
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.booking-bg .container{
+    background: #252746;
 }
