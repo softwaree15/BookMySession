@@ -26,29 +26,43 @@
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8 align-self-center">
-        <form>
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
           <div class="form-group row">
             <label for="fname" class="col-sm-4 col-form-label">First Name</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control-lg" placeholder="First name">
+              <input type="text" formControlName="firstName" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" class="form-control " placeholder="First name">
+              <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                  <div *ngIf="f.firstName.errors.required">First Name is required</div>
+              </div>
             </div>
           </div>
           <div class="form-group row">
             <label for="lname" class="col-sm-4 col-form-label">Last Name</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control-lg" placeholder="Last name">
+              <input type="text" formControlName="lastName" class="form-control " [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" placeholder="Last name">
+              <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                  <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+              </div>
             </div>
           </div>
           <div class="form-group row">
             <label for="email" class="col-sm-4 col-form-label">Email</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control-lg" placeholder="Email">
+              <input type="text" formControlName="email" class="form-control " [ngClass]="{ 'is-invalid': submitted && f.email.errors }" placeholder="Email">
+              <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                  <div *ngIf="f.email.errors.required">Email is required</div>
+                  <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+              </div>
             </div>
           </div>
           <div class="form-group row">
             <label for="phone" class="col-sm-4 col-form-label">Phone Number</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control-lg" placeholder="Enter your mobile number">
+              <input type="text" formControlName="mobile" class="form-control " [ngClass]="{ 'is-invalid': submitted && f.mobile.errors }" placeholder="Enter your mobile number">
+              <div *ngIf="submitted && f.mobile.errors" class="invalid-feedback">
+                  <div *ngIf="f.mobile.errors.required">Mobile Number is required</div>
+                  <div *ngIf="f.mobile.errors.pattern">Must be a valid Mobile Number</div>
+              </div>
             </div>
           </div>
           <div class="form-group row">
@@ -310,8 +324,8 @@
             </div>
           </div>
           <div class="form-group mt-5">
-            <a  class="bms-button bms-button-lg bms-button-white bms-button-transparent mr-2"
-              routerLink="/login"><span >Confirm Booking</span></a>
+            <button  class="bms-button bms-button-lg bms-button-white bms-button-transparent mr-2"
+              ><span >Confirm Booking</span></button>
             <a  class="bms-button bms-button-lg bms-button-white bms-button-transparent" href="#"><span
                 >Cancel</span></a>
           </div>

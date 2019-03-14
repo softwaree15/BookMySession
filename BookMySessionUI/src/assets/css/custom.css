@@ -18,6 +18,14 @@ label{
 .form-control-lg{
     color: #fff;
 }
+.form-control{
+    height: calc(2.875rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;    
+    background: transparent;
+    color: #fff;
+}
 .input-group>.form-control{
     height: calc(2.875rem + 2px);
     padding: .5rem 1rem;
