@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { BookingComponent } from './booking/booking.component';
 import { ConfirmbookingComponent } from './confirmbooking/confirmbooking.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {
@@ -16,6 +18,15 @@ const routes: Routes = [
   {
     path:'confirmbooking',
     component:ConfirmbookingComponent
+  },
+  
+  {
+    path:'login',
+    component:LoginComponent
+  },
+  {
+    path:'register',
+    component:RegisterComponent
   },
   { path: '',
     redirectTo: '/home',

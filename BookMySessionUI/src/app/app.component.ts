@@ -1,5 +1,5 @@
 import { Component,  OnInit } from '@angular/core';
-import '../assets/js/main.js';
+
 
 
 @Component({

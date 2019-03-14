@@ -14,18 +14,8 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.booking-body
-{
-    padding: 25px;
-}
-.form-group label{
-    font-size: 25px;
-    color: #fff;
-}
-.form-group select{
-    background: #252746;
-    color: #fff;
-}
+
+
 .table-header .day-name,.table-header .date{
     color: #fff;
     display: block;

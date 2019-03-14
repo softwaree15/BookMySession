@@ -99,6 +99,7 @@ textarea {
 .clearfix:after {
   clear: both;
 }
+
 .bg-overlay{
   background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
     background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
@@ -762,9 +763,9 @@ a:hover, a:focus, a:active {
   outline: none;
 }
 
-a:visited {
+/* a:visited {
   color: inherit;
-}
+} */
 
 button {
   cursor: pointer;
@@ -4312,14 +4313,14 @@ booking session
  * Funfact
  */
 .bms-video-funfact-area .bms-videobox {
-  margin-right: 45px;
-  margin-left: -140px;
+      margin-right: 0;
+    margin-left: 0;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .bms-video-funfact-area .bms-videobox {
-    margin-right: 45px;
-    margin-left: -85px;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -5591,7 +5592,7 @@ booking session
   flex: 0 0 70px;
   max-width: 70px;
   font-size: 48px;
-  background: #0E8FE3;
+  background: #252746;
   text-align: center;
   color: #ffffff;
   -ms-flex-item-align: stretch;
@@ -6260,4 +6261,3 @@ booking session
   }
 }
 
-/*# sourceMappingURL=style.css.map */

@@ -1,12 +1,78 @@
-/*
- * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- *
- * Template Name: Appmyil - App Landing Template   
- * Template URI: https://thememarch.com/demo/html/appmyil/
- * Description: Appmyil is an app landing HTML template which comes with unique and clean design. It helps you to create a beautiful app landing HTML website. It is designed with Bootstrap v4.2.1 the latest bootstrap version. Appmyil is well organized and very easy to customize.
- * Author: Thememarch
- * Author URI: https://thememarch.com
- * Version: 1.0
- *
- * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- */
+.booking-body
+{
+    padding: 25px;
+}
+.form-group label{
+    font-size: 22px;
+    color: #fff;
+    font-weight: lighter;
+}
+label{
+    color:#fff;
+    font-weight: lighter;
+}
+.form-group select{
+    background: #252746;
+    color: #fff;
+}
+.form-control-lg{
+    color: #fff;
+}
+.input-group>.form-control{
+    height: calc(2.875rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;    
+    background: transparent;
+    color: #fff;
+}
+.btn-icon .btn-inner--text:not(:last-child) {
+    margin-right: 0.75em;
+}
+.text-underline--dashed {
+    border-bottom: 1px dashed !important;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0E8FE3;
+}
+.cd-body{
+    background: rgba(0, 0, 0, .5);
+    padding: 15px;
+}
+.cd-body .col{
+    height: 55px;
+}
+.cd-body .col img{
+    height: 55px;
+}
+.cd-body .custom-control-label::after{
+    display: none;
+}
+.cd-body .allbanks-lbl{
+    display: block;
+    margin-top: 20px;
+}
+.cd-body .select-banks{
+    max-width: 300px;
+    color: #fff;
+   
+}
+.cd-body .select-banks option{
+    background: #252746;
+}
+.form-body{
+    padding: 40px;
+}
+.bottom-area{
+    text-align: center;
+}
+
