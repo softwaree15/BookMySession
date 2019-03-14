@@ -11,5 +11,9 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
   }
+  showPassword(){
+    var inputPassword=document.querySelector('#input-password');
+    inputPassword.setAttribute('type','text');
+  }
 
 }
