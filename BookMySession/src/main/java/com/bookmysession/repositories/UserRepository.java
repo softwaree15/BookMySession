@@ -15,8 +15,11 @@ public interface UserRepository extends JpaRepository<Users,Long> {
     @Query("SELECT u FROM Users u where u.token=?1 and u.isActive = TRUE and u.isDelete=FALSE")
     Optional<Users> getUserByToken(String token);
 
-    @Query("SELECT u FROM Users u where u.email=?1 and u.password=?2 and u.isActive = TRUE and u.isDelete=FALSE")
-    Optional<Users> getUserByEmailAndPassword(String email,String password);
+    @Query(value = "SELECT u FROM Users u where u.email=?1 and u.password=?2 and u.isActive = TRUE and u.isDelete=FALSE")
+    Users getUserByemailAndPassword(String email,String password);
+
+    @Query("SELECT u FROM Users u where u.email=?1 and u.isActive = TRUE and u.isDelete=FALSE")
+    Optional<Users> getUserByEmail(String email);
 
     @Query("SELECT u FROM Users u where u.mobNo=?1 and u.password=?2 and u.isActive = TRUE and u.isDelete=FALSE")
     Optional<Users> getUserByMobNoAndPassword(String Mob,String password);

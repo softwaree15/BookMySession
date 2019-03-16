@@ -14,4 +14,7 @@ public interface ServicesRepository extends JpaRepository<Services,Long> {
 
     @Query("SELECT s FROM Services s where s.id=?1 and s.isActive = TRUE and s.isDelete=FALSE")
     Optional<Services> getById(long id);
+
+    @Query("SELECT s FROM Services s where s.name=?1 and s.isActive = TRUE and s.isDelete=FALSE")
+    Optional<Services> getByName(String name);
 }

@@ -1,5 +1,7 @@
 package com.bookmysession.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -47,4 +49,5 @@ public class Services extends CommonProperties {
     public void setServicesTimeSlots(List<ServicesTimeSlot> servicesTimeSlots) {
         this.servicesTimeSlots = servicesTimeSlots;
     }
+
 }

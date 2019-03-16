@@ -91,4 +91,20 @@ public class Users extends CommonProperties{
     public void setTokenExpireDate(LocalDateTime tokenExpireDate) {
         this.tokenExpireDate = tokenExpireDate;
     }
+
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", mobNo='" + mobNo + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", type='" + type + '\'' +
+                ", token='" + token + '\'' +
+                ", tokenExpireDate=" + tokenExpireDate +
+                '}';
+    }
 }

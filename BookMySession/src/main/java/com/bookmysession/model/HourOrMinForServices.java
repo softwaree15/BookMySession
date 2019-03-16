@@ -1,15 +1,22 @@
 package com.bookmysession.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.time.LocalTime;
+import java.util.UUID;
 
 @Entity
 public class HourOrMinForServices extends CommonProperties {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(
+            name = "UUID",
+            strategy = "org.hibernate.id.UUIDGenerator"
+    )
+    @Column(name = "id", updatable = false, nullable = false)
+    private UUID id;
     private LocalTime time;
     private double ammount;
 
@@ -18,11 +25,11 @@ public class HourOrMinForServices extends CommonProperties {
     @JoinColumn(name = "services_id", nullable = false)
     private Services service;
 
-    public long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 
