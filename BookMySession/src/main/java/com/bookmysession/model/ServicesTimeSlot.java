@@ -15,7 +15,7 @@ public class ServicesTimeSlot extends CommonProperties{
             name = "UUID",
             strategy = "org.hibernate.id.UUIDGenerator"
     )
-    @Column(name = "id", updatable = false, nullable = false)
+    @Column(columnDefinition = "BINARY(16)", updatable = false, nullable = false)
     private UUID id;
     private LocalDateTime serviceDateTime;
     private String day;

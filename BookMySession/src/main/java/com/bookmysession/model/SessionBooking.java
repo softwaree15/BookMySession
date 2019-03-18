@@ -1,6 +1,7 @@
 package com.bookmysession.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.util.UUID;
@@ -8,7 +9,12 @@ import java.util.UUID;
 @Entity
 public class SessionBooking extends CommonProperties {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(
+            name = "UUID",
+            strategy = "org.hibernate.id.UUIDGenerator"
+    )
+    @Column(columnDefinition = "BINARY(16)")
     private UUID uuid;
     private String firstName;
     private String lastName;
@@ -16,13 +22,16 @@ public class SessionBooking extends CommonProperties {
     private String mobNo;
     private String paymentMode;
     private int quantity;
+    private double ammount;
 
-    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "hour_min_id", nullable = false)
     private HourOrMinForServices hourOrMinForServices;
 
-    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "time_slot_id", nullable = false)
+    private ServicesTimeSlot servicesTimeSlot;
+
     @ManyToOne
     @JoinColumn(name = "services_id", nullable = false)
     private Services services;
@@ -83,12 +92,28 @@ public class SessionBooking extends CommonProperties {
         this.quantity = quantity;
     }
 
+    public double getAmmount() {
+        return ammount;
+    }
+
+    public void setAmmount(double ammount) {
+        this.ammount = ammount;
+    }
+
     public HourOrMinForServices getHourOrMinForServices() {
         return hourOrMinForServices;
     }
 
     public void setHourOrMinForServices(HourOrMinForServices hourOrMinForServices) {
         this.hourOrMinForServices = hourOrMinForServices;
+    }
+
+    public ServicesTimeSlot getServicesTimeSlot() {
+        return servicesTimeSlot;
+    }
+
+    public void setServicesTimeSlot(ServicesTimeSlot servicesTimeSlot) {
+        this.servicesTimeSlot = servicesTimeSlot;
     }
 
     public Services getServices() {

@@ -1,6 +1,6 @@
 package com.bookmysession.controller;
 
-import com.bookmysession.model.Services;
+import com.bookmysession.model.ServicesTimeSlot;
 import com.bookmysession.service.ServicesTimeSlotService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/servicetimeslot")
@@ -19,26 +19,19 @@ public class ServiceTimeSlotController {
     @Autowired
     ServicesTimeSlotService servicesTimeSlotService;
 
-    @PostMapping("/add")
-    public ResponseEntity<Services> addServiceTimeSlot(@RequestBody Services service)
+    @PostMapping("/add/{id}")
+    public ResponseEntity<ServicesTimeSlot> addServiceTimeSlot(@PathVariable() long serviceId,@RequestBody ServicesTimeSlot servicesTimeSlot)
     {
-        service=servicesTimeSlotService.add(service);
-        log.info("All services {} ",service);
-        return new ResponseEntity<>(service, HttpStatus.OK);
+        servicesTimeSlot=servicesTimeSlotService.add(servicesTimeSlot,serviceId);
+        log.info("ServicesTimeSlot {} ",servicesTimeSlot);
+        return new ResponseEntity<>(servicesTimeSlot, HttpStatus.OK);
     }
 
     @GetMapping("/byId/{id}")
-    public ResponseEntity<Services> getServiceTimeSlotById(@PathVariable() long id)
+    public ResponseEntity<ServicesTimeSlot> getServiceTimeSlotById(@PathVariable() UUID id)
     {
-        Services services=servicesService.getById(id);
-        log.info("ServiceTimeSlot {} ",services);
-        return new ResponseEntity<>(services, HttpStatus.OK);
-    }
-    @GetMapping("/all")
-    public ResponseEntity<List<Services>> getAllServiceTimeSlot()
-    {
-        List<Services> servicesList=servicesService.getAllServices();
-        log.info("ServiceTimeSlot List {} ",servicesList.size());
-        return new ResponseEntity<>(servicesList, HttpStatus.OK);
+        ServicesTimeSlot servicesTimeSlot=servicesTimeSlotService.getById(id);
+        log.info("servicesTimeSlot {} ",servicesTimeSlot);
+        return new ResponseEntity<>(servicesTimeSlot, HttpStatus.OK);
     }
 }
