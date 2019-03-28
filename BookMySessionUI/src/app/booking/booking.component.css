@@ -17,13 +17,13 @@
 
 
 .table-header .day-name,.table-header .date{
-    color: #fff;
+    color: #000;
     display: block;
     text-align: center;
 }
 .table-body .col{
-    background: #0E8FE3;
-    color: #000;
+    background: #e31189;
+    color: #fff;
     margin-right: 2px;
     margin-left: 2px;
     text-align: center;
@@ -33,14 +33,4 @@
     justify-content: center;
     margin-bottom: 4px;
     cursor: pointer;
-}
-.booking-bg{
-    background: url('../../assets/images/bg/booking_bg.jpg');
-    background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.booking-bg .container{
-    background: #252746;
 }

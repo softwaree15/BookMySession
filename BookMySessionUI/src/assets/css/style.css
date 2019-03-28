@@ -101,28 +101,28 @@ textarea {
 }
 
 .bg-overlay{
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     opacity: 0.6;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 .bg-overlay-1{
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     opacity: 0.8;
 }
 
@@ -1041,7 +1041,7 @@ input[type=radio]:checked ~ label::before {
 }
 
 .color-secondary {
-  color: #252746;
+  color: #e31189;
 }
 
 .color-dark {
@@ -1066,7 +1066,7 @@ input[type=radio]:checked ~ label::before {
 }
 
 .bg-secondary {
-  background: #252746;
+  background: #e31189;
 }
 
 .bg-grey {
@@ -1086,14 +1086,14 @@ input[type=radio]:checked ~ label::before {
 }
 
 .bg-gradient {
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #fff 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #fff 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #fff 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #fff 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#e31189));
+  background: -webkit-linear-gradient(left, #fff 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #fff 0%, #e31189 100%);
+  background: linear-gradient(90deg, #fff 0%, #e31189 100%);
 }
 
 /* Background Image */
@@ -1168,11 +1168,11 @@ input[type=radio]:checked ~ label::before {
 }
 
 [data-overlay]:before {
-  background: -webkit-linear-gradient(45deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(45deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(45deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(45deg, #252746 0%, #252746 100%);
-  background: linear-gradient(45deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(45deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(45deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(45deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(45deg, #e31189 0%, #e31189 100%);
+  background: linear-gradient(45deg, #e31189 0%, #e31189 100%);
 }
 
 [data-secondary-overlay]:before {
@@ -1500,14 +1500,14 @@ input[type=radio]:checked ~ label::before {
   right: 0;
   bottom: 0;
   width: 100%;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1731,14 +1731,14 @@ button.bms-button::before {
   bottom: 0;
   width: 101%;
   height: 100%;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   z-index: 2;
   opacity: 1;
   -webkit-transition: all 0.4s ease-in-out 0s;
@@ -1757,14 +1757,14 @@ button.bms-button::after {
   bottom: 0;
   width: 101%;
   height: 100%;
-  background: -webkit-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(270deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: linear-gradient(270deg, #e31189 0%, #e31189 100%);
   z-index: 2;
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out 0s;
@@ -2203,14 +2203,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
   top: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left bottom, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: linear-gradient(0deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: linear-gradient(0deg, #e31189 0%, #e31189 100%);
   -webkit-transform: scale(1.4);
   -ms-transform: scale(1.4);
   transform: scale(1.4);
@@ -2239,14 +2239,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
   line-height: 32px;
   text-align: center;
   border-radius: 100px;
-  background: -webkit-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left bottom, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: linear-gradient(0deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: linear-gradient(0deg, #e31189 0%, #e31189 100%);
   color: #ffffff;
   font-size: 24px;
   vertical-align: middle;
@@ -2684,14 +2684,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
   top: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   opacity: 0.8;
   z-index: 2;
 }
@@ -2813,14 +2813,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
   color: #ffffff;
   text-align: center;
   border-radius: 100px;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   -webkit-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
@@ -2831,14 +2831,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
 }
 
 .bms-accordion .card-header button:not(.collapsed) {
-  background: -webkit-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(-90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(-90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(-90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(-90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(-90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: linear-gradient(-90deg, #e31189 0%, #e31189 100%);
   color: #ffffff;
 }
 
@@ -2876,14 +2876,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
   top: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(-90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(-90deg, #e31189 0%, #fff 100%);
+  background: -moz-linear-gradient(-90deg, #e31189 0%, #fff 100%);
+  background: -ms-linear-gradient(-90deg, #e31189 0%, #fff 100%);
+  background: -o-linear-gradient(-90deg, #e31189 0%, #fff 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#fff));
+  background: -webkit-linear-gradient(right, #e31189 0%, #fff 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #fff 100%);
+  background: linear-gradient(-90deg, #e31189 0%, #fff 100%);
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -2901,7 +2901,7 @@ button.bms-videobutton.bms-videobutton-lg span i {
 
 .bms-header-logo img {
   /* height: 100%; */
-  margin-top: -70px;
+  margin-top: 13px;
 }
 
 .bms-header-navigation {
@@ -3169,14 +3169,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
   top: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(-90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(-90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(-90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(-90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(-90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(-90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: linear-gradient(-90deg, #e31189 0%, #e31189 100%);
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
@@ -3220,7 +3220,7 @@ button.bms-videobutton.bms-videobutton-lg span i {
 
 /* Fixed Header */
 .bms-header-fixed .bms-navigation > ul > li > a {
-  color: #ffffff;
+  color: #000;
 }
 
 .bms-header-fixed .bms-navigation > ul > li > a::before {
@@ -3228,7 +3228,7 @@ button.bms-videobutton.bms-videobutton-lg span i {
 }
 
 .bms-header-fixed .bms-navigation > ul > li:hover > a {
-  color: #ffffff;
+  color: #e31189;
 }
 
 .bms-sticky-header.is-sticky .bms-navigation > ul > li > a {
@@ -3247,14 +3247,7 @@ button.bms-videobutton.bms-videobutton-lg span i {
  * Heroslider
  */
 .bms-heroslider-inner {
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: #fff;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3280,7 +3273,7 @@ button.bms-videobutton.bms-videobutton-lg span i {
 }
 
 .bms-heroslider-content h1 {
-  color: #ffffff;
+  color: #666;
   font-size: 60px;
   line-height: 72px;
   font-weight: 700;
@@ -3291,7 +3284,7 @@ button.bms-videobutton.bms-videobutton-lg span i {
   margin-top: 30px;
   font-size: 20px;
   line-height: 32px;
-  color: #ffffff;
+  color: #666;
 }
 
 .bms-heroslider-content .bms-buttongroup {
@@ -3358,42 +3351,42 @@ button.bms-videobutton.bms-videobutton-lg span i {
 
 .bms-heroslider-mobileshowanim span:nth-child(1) {
   z-index: 3;
-  background: -webkit-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(270deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: linear-gradient(270deg, #e31189 0%, #e31189 100%);
   -webkit-animation: growShrink1 5s ease-in-out 0s infinite both;
   animation: growShrink1 5s ease-in-out 0s infinite both;
 }
 
 .bms-heroslider-mobileshowanim span:nth-child(2) {
   z-index: 2;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   -webkit-animation: growShrink2 5s ease-in-out 0.2s infinite both;
   animation: growShrink2 5s ease-in-out 0.2s infinite both;
 }
 
 .bms-heroslider-mobileshowanim span:nth-child(3) {
   z-index: 1;
-  background: -webkit-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(270deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: linear-gradient(270deg, #e31189 0%, #e31189 100%);
   -webkit-animation: growShrink3 5s ease-in-out 0.4s infinite both;
   animation: growShrink3 5s ease-in-out 0.4s infinite both;
 }
@@ -3662,14 +3655,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .bms-feature-icon {
-    background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+    background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3682,14 +3675,14 @@ button.bms-videobutton.bms-videobutton-lg span i {
 
 @supports (-webkit-text-fill-color: transparent) or (-moz-text-fill-color: transparent) or (-ms-text-fill-color: transparent) or (-o-text-fill-color: transparent) or (text-fill-color: transparent) {
   .bms-feature-icon {
-    background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+    background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3772,14 +3765,14 @@ booking session
 }
 
 .center-session{
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     opacity: 0.8;
     padding: 60px 40px;
 }
@@ -3848,14 +3841,14 @@ booking session
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .bms-service-icon {
-    background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+    background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3868,14 +3861,14 @@ booking session
 
 @supports (-webkit-text-fill-color: transparent) or (-moz-text-fill-color: transparent) or (-ms-text-fill-color: transparent) or (-o-text-fill-color: transparent) or (text-fill-color: transparent) {
   .bms-service-icon {
-    background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+    background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3993,42 +3986,42 @@ booking session
 
 .bms-service-mobileshowanim span:nth-child(1) {
   z-index: 3;
-  background: -webkit-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(270deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: linear-gradient(270deg, #e31189 0%, #e31189 100%);
   -webkit-animation: growShrink1 5s ease-in-out 0s infinite both;
   animation: growShrink1 5s ease-in-out 0s infinite both;
 }
 
 .bms-service-mobileshowanim span:nth-child(2) {
   z-index: 2;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   -webkit-animation: growShrink2 5s ease-in-out 0.2s infinite both;
   animation: growShrink2 5s ease-in-out 0.2s infinite both;
 }
 
 .bms-service-mobileshowanim span:nth-child(3) {
   z-index: 1;
-  background: -webkit-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(270deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: linear-gradient(270deg, #e31189 0%, #e31189 100%);
   -webkit-animation: growShrink3 5s ease-in-out 0.4s infinite both;
   animation: growShrink3 5s ease-in-out 0.4s infinite both;
 }
@@ -4415,14 +4408,14 @@ booking session
   top: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left bottom, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: linear-gradient(0deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: linear-gradient(0deg, #e31189 0%, #e31189 100%);
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -4445,14 +4438,14 @@ booking session
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .bms-funfact-icon {
-    background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+    background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4465,14 +4458,14 @@ booking session
 
 @supports (-webkit-text-fill-color: transparent) or (-moz-text-fill-color: transparent) or (-ms-text-fill-color: transparent) or (-o-text-fill-color: transparent) or (text-fill-color: transparent) {
   .bms-funfact-icon {
-    background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+    background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4569,14 +4562,14 @@ booking session
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  background: -webkit-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left bottom, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: linear-gradient(0deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: linear-gradient(0deg, #e31189 0%, #e31189 100%);
 }
 
 .bms-team-imageinner {
@@ -4594,14 +4587,14 @@ booking session
   top: 10px;
   height: calc(100% - 20px);
   width: calc(100% - 20px);
-  background: -webkit-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(270deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, right top, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(right, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(right, #252746 0%, #252746 100%);
-  background: linear-gradient(270deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(270deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(right, #e31189 0%, #e31189 100%);
+  background: linear-gradient(270deg, #e31189 0%, #e31189 100%);
   border-radius: 1000px;
   opacity: 0;
   visibility: hidden;
@@ -4625,14 +4618,14 @@ booking session
   width: 46px;
   line-height: 1;
   text-align: center;
-  background: -webkit-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(0deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left bottom, left top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(bottom, #252746 0%, #252746 100%);
-  background: linear-gradient(0deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(0deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(bottom, #e31189 0%, #e31189 100%);
+  background: linear-gradient(0deg, #e31189 0%, #e31189 100%);
   border: 0;
   border-radius: 100px;
   -webkit-transform: translate(-50%, -50%);
@@ -4766,14 +4759,14 @@ booking session
 
 .bms-testimonial-author {
   border-radius: 1000px;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -4856,14 +4849,14 @@ booking session
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .bms-testimonial-content i {
-    background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+    background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4876,14 +4869,14 @@ booking session
 
 @supports (-webkit-text-fill-color: transparent) or (-moz-text-fill-color: transparent) or (-ms-text-fill-color: transparent) or (-o-text-fill-color: transparent) or (text-fill-color: transparent) {
   .bms-testimonial-content i {
-    background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-    background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-    background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-    background: linear-gradient(90deg, #252746 0%, #252746 100%);
+    background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+    background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+    background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -5012,14 +5005,14 @@ booking session
   top: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   z-index: -1;
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
@@ -5348,14 +5341,14 @@ booking session
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
   z-index: 1;
-  background: -webkit-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -moz-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -ms-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(90deg, #252746 0%, #252746 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#252746), to(#252746));
-  background: -webkit-linear-gradient(left, #252746 0%, #252746 100%);
-  background: -o-linear-gradient(left, #252746 0%, #252746 100%);
-  background: linear-gradient(90deg, #252746 0%, #252746 100%);
+  background: -webkit-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -moz-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -ms-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(90deg, #e31189 0%, #e31189 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#e31189), to(#e31189));
+  background: -webkit-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: -o-linear-gradient(left, #e31189 0%, #e31189 100%);
+  background: linear-gradient(90deg, #e31189 0%, #e31189 100%);
   color: #ffffff;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -5592,7 +5585,7 @@ booking session
   flex: 0 0 70px;
   max-width: 70px;
   font-size: 48px;
-  background: #252746;
+  background: #e31189;
   text-align: center;
   color: #ffffff;
   -ms-flex-item-align: stretch;
@@ -5722,6 +5715,7 @@ booking session
 
 .widget-info p:last-of-type {
   margin-bottom: 0;
+  color: #000;
 }
 
 /* Widget Contact */
@@ -6079,7 +6073,7 @@ booking session
 }
 
 .bms-footer a {
-  color: #ffffff;
+  color: #fff;
 }
 
 .bms-footer a:hover, .bms-footer a:focus {
@@ -6184,10 +6178,12 @@ booking session
 .bms-footer-copyright {
   padding: 5px 0;
   margin-bottom: 0;
+  color: #000;
 }
 
 .bms-footer-copyright a {
   font-weight: 500;
+  color:#e31189;
 }
 
 @media only screen and (max-width: 767px) {
@@ -6200,7 +6196,7 @@ booking session
 }
 
 .bms-footer-widgets .widget-title {
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -6232,15 +6228,15 @@ booking session
 }
 
 .bms-footer-widgets .widget-recentpost .widget-recentpost-content h6 a {
-  color: #ffffff;
+  color: #fff;
 }
 
 .bms-footer-widgets .widget-recentpost .widget-recentpost-content span {
-  color: #ffffff;
+  color: #fff;
 }
 
 .bms-footer-widgets .widget-recentpost .widget-recentpost-content span::before {
-  color: #ffffff;
+  color: #fff;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

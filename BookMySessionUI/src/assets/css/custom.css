@@ -4,7 +4,7 @@
 }
 .form-group label{
     font-size: 22px;
-    color: #fff;
+    color: #000000;
     font-weight: lighter;
 }
 label{
@@ -12,7 +12,7 @@ label{
     font-weight: lighter;
 }
 .form-group select{
-    background: #252746;
+    background: #e31189;
     color: #fff;
 }
 .form-control-lg{
@@ -43,17 +43,17 @@ label{
 .nav-pills .nav-link {
     border-radius: .25rem;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #e31189;
     margin-bottom: 10px;
-    color: #fff;
+    color: #e31189;
     font-size: 20px;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #0E8FE3;
+    background-color: #e31189;
 }
 .cd-body{
-    background: rgba(0, 0, 0, .5);
+    background: #e31189;
     padding: 15px;
 }
 .cd-body .col{
@@ -74,8 +74,11 @@ label{
     color: #fff;
    
 }
+.cd-body small{
+    color: #fff;
+}
 .cd-body .select-banks option{
-    background: #252746;
+    background: #e31189;
 }
 .form-body{
     padding: 40px;
@@ -84,3 +87,13 @@ label{
     text-align: center;
 }
 
+.booking-bg{
+    background: url('../../assets/images/bg/booking_bg.jpg');
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.booking-bg .container{
+    background: #fff;
+}
