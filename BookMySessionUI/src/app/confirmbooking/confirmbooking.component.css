@@ -8,7 +8,11 @@
 }
 .bms-heroslider-inner
 {
+    background: #4267b2;
     min-height: 100%;
+}
+.bms-heroslider-content h1, .bms-heroslider-content p{
+    color: #fff;
 }
 .bms-padding-section{
     padding-top: 50px;

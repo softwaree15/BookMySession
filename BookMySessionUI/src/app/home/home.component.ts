@@ -15,6 +15,20 @@ export class HomeComponent implements OnInit {
     this.mobileHomeNavigationScroll();
     this.scrollSpyFun();
     this.storiesSlider();
+
+    $(".Modern-Slider").slick({
+      autoplay:true,
+      autoplaySpeed:10000,
+      arrows:false,
+      speed:600,
+      slidesToShow:1,
+      slidesToScroll:1,
+      pauseOnHover:false,
+      dots:true,
+      pauseOnDotsHover:true,
+      cssEase:'linear'
+     
+    });
     
   }
   navigationScroll(){
@@ -86,4 +100,11 @@ export class HomeComponent implements OnInit {
       }]
     });
   }
+
+  swap_class(el, cls1, cls2) {
+    console.log('swapping classes: ', cls1, cls2);
+    $(el).addClass(cls1);
+    $(el).removeClass(cls2);
+  }
+  
 }

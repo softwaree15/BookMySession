@@ -12,7 +12,7 @@ label{
     font-weight: lighter;
 }
 .form-group select{
-    background: #e31189;
+    background: #4267b2;
     color: #fff;
 }
 .form-control-lg{
@@ -43,17 +43,17 @@ label{
 .nav-pills .nav-link {
     border-radius: .25rem;
     background-color: transparent;
-    border: 1px solid #e31189;
+    border: 1px solid #4267b2;
     margin-bottom: 10px;
-    color: #e31189;
+    color: #4267b2;
     font-size: 20px;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #e31189;
+    background-color: #4267b2;
 }
 .cd-body{
-    background: #e31189;
+    background: #4267b2;
     padding: 15px;
 }
 .cd-body .col{
@@ -78,7 +78,7 @@ label{
     color: #fff;
 }
 .cd-body .select-banks option{
-    background: #e31189;
+    background: #4267b2;
 }
 .form-body{
     padding: 40px;

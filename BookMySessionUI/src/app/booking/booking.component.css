@@ -6,9 +6,15 @@
 .bms-heroslider{
     height: 330px;
 }
+
+   
 .bms-heroslider-inner
 {
+    background: #4267b2;
     min-height: 100%;
+}
+.bms-heroslider-content h1, .bms-heroslider-content p{
+    color: #fff;
 }
 .bms-padding-section{
     padding-top: 50px;
@@ -22,7 +28,7 @@
     text-align: center;
 }
 .table-body .col{
-    background: #e31189;
+    background: #4267b2;
     color: #fff;
     margin-right: 2px;
     margin-left: 2px;
